@@ -12,6 +12,7 @@ font-family: 'Montserrat', sans-serif; */
     list-style: none;
     color: black;
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 #nav-bar {
@@ -180,3 +181,43 @@ font-family: 'Montserrat', sans-serif; */
     font-size: 13px;
     padding-right: 1.5rem;
 } 
+
+@media screen and (min-width: 600px) and (max-width: 1029px) {
+    #header-img {
+        width: 4rem; 
+        margin-right: 0.5rem;
+    }
+    .header-text {
+        font-size: 20px;
+    }
+    .nav-link {
+        padding: 0 1rem;
+    }
+    .generalContainer-products {
+        width: 100%;
+    }
+    .container-products {
+        padding: 0 3rem;
+    }
+    .generalContainer-cards {
+        width: 100%;
+    }
+    .cards {
+        height: auto;
+    }
+    .textoCard {
+        margin: 20px 0 30px 0;
+    }
+    .ul-footer, .textFooter {
+        width: 100%;
+        height: auto;
+    }
+    .footer {
+        background-color: #DDDDDD;
+        height: 5rem;
+    }
+    .textFooter {
+        padding-top: 20px;
+        margin-top: 0px;
+    } 
+}
