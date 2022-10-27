@@ -15,11 +15,22 @@ font-family: 'Montserrat', sans-serif; */
     overflow-x: hidden;
 }
 
+
+
+main {
+    background-color: #FBFFF1;
+}
+
+h1 {
+    margin-top: 2rem;
+}
+
 #nav-bar {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 2rem 3rem;
+    padding: 1rem 3rem;
+    background-color: #031D39;
 }
 
 .left-container-header {
@@ -28,13 +39,14 @@ font-family: 'Montserrat', sans-serif; */
 }
 
 #header-img {
-    width: 6rem; 
+    width: 4rem; 
     margin-right: 1rem;
 }
 
 .header-text {
     font-size: 25px;
     font-family: 'Fredoka', sans-serif;
+    color: #FBFFF1;
 }
 
 .nav-ul {
@@ -47,6 +59,10 @@ font-family: 'Montserrat', sans-serif; */
     font-weight: 500;
 }
 
+.nav-link a {
+    color: #FBFFF1;
+}
+
 .container-form {
     display: flex;
     flex-direction: column;
@@ -57,7 +73,6 @@ font-family: 'Montserrat', sans-serif; */
     font-family:'Fredoka', sans-serif; 
     font-weight: 500;
     font-size: 27px;
-    padding-bottom: 2rem;
 }
 
 #form {
@@ -76,14 +91,14 @@ font-family: 'Montserrat', sans-serif; */
     width: 200px;
     font-weight: 700;
     border: none;
-    background-color: #f1c40f;
+    background-color: #fbfff1;
     cursor: pointer;
 }
 
 .generalContainer-products {
     margin: auto;
     width: 800px;
-    padding: 4rem 0 1rem 0;
+    padding: 3rem 0 1rem 0;
 }
 
 .container-products {
@@ -98,7 +113,7 @@ font-family: 'Montserrat', sans-serif; */
 
 .img-Benefits {
     width: 3rem;
-    background-color: #f1c40f;
+    background-color: #fbfff1;
     border-radius: 10px;
 }
 
@@ -118,7 +133,11 @@ font-family: 'Montserrat', sans-serif; */
     justify-content: space-evenly;
     width: 1000px;
     margin: auto;
-    margin-top: 5rem;
+    margin-top: 3rem;
+}
+
+.hola {
+    text-align: center;
 }
 
 .cards {
@@ -134,10 +153,20 @@ font-family: 'Montserrat', sans-serif; */
     font-family: 'Fredoka', sans-serif;
     font-weight: 400;
     text-align: center;
-    background-color: #DDDDDD;
+    background-color: #031D39;
     height: 50px;
     padding-top: 15px;
+    color: #FBFFF1;
 }
+
+.containerText-products {
+    padding-left: 1rem;
+}
+
+.cucu {
+    margin-left: 0.3rem ;
+}
+
 
 .precioCard {
     text-align: center;
@@ -154,26 +183,28 @@ font-family: 'Montserrat', sans-serif; */
     padding: 0.7rem;
     width: 100px;
     margin: auto;
-    background-color: #f1c40f;
+    background-color: #FF5A5F;
     border: none;
     font-weight: 500;
     cursor: pointer;
 }
 
 .ul-footer, .textFooter {
-    width: 1030px;
+    width: 100%;
     margin: auto;
     height: 3rem;
-    background-color: #DDDDDD; 
     display: flex;
     justify-content: end;
     align-items: center;
+    background-color: #031D39;
+    color: #FBFFF1;
 }
 
 .ul-footer li {
     padding: 0.5rem 1.5rem 0 0.5rem;
     font-size: 15px;
     font-weight: 500;
+    color: #FBFFF1;
 }
 
 .textFooter {
